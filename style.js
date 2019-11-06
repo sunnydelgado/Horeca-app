@@ -6,7 +6,7 @@ var totalsnack10 = 0
 // De variabelen die bijhouden hoeveel er van iets is besteld.//
 
 alert("Welcome bij de cafe Davinci")
-alert("U kunt uit de volgende producten kiezen\nfris\nbier\nwijn\nsnack")
+alert("U kunt uit de volgende producten kiezen\nfris: € 1,50\nbier: € 2,00\nwijn: € 3,00\nsnack: € 5,00/ €10,00")
 
 function order() {
   var bestelling = prompt('Welke bestelling wilt u toevoegen?\nfris\nbier\nwijn\nsnack');
